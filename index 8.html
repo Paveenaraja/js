@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Info Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+
+  <div class="box">
+    <h2> Profile</h2>
+    <label>Name: <input type="text" id="name" class="input"></label><br><br>
+    <label>Birth Year: <input type="number" id="birthYear"  class="input"></label><br><br>
+    <label>City: <input type="text" id="city"  class="input"></label><br><br>
+    <button onclick="storeInfo()">Submit Info</button>
+    <p id="infoMsg"></p>
+  </div>
+
+  <div class="box">
+    <h2>Age & Eligibility</h2>
+    <button onclick="checkAge()">Check Age</button>
+    <p id="ageMsg"></p>
+  </div>
+
+  <div class="box">
+    <h2> Greeting</h2>
+    <button onclick="showGreeting()">Show Greeting</button>
+    <p id="greetMsg"></p>
+  </div>
+
+  <div class="box">
+    <h2> Calculator</h2>
+    <input type="number" id="num1" placeholder="Number 1" style="border-radius: 20px;width: 300px; height: 30px;"><br><br>
+    <input type="number" id="num2" placeholder="Number 2" style="border-radius: 20px;width: 300px; height: 30px;"><br><br>
+    <button onclick="doMath('add')">Add</button>
+    <button onclick="doMath('sub')">Subtract</button>
+    <button onclick="doMath('mul')">Multiply</button>
+    <button onclick="doMath('div')">Divide</button>
+    <p id="calcMsg"></p>
+  </div>
+
+  <div class="box">
+    <h2> Motivational Quote</h2>
+    <button onclick="showQuote()">Get Quote</button>
+    <p id="quoteMsg"></p>
+  </div>
+
+  <div class="box">
+    <h2> View Info in JSON</h2>
+    <button onclick="showJSON()">Show JSON</button>
+    <pre id="jsonMsg"></pre>
+  </div>
+
+  <script src="java.js">
+  </script>
+</body>
+</html>

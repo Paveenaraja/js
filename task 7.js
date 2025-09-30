@@ -1,8 +1,8 @@
 
-let distance = Number(prompt("Enter the distance in km:"));
+let distance = Number(prompt(" Distance in km:"));
 
 
-let transport = prompt("Enter transport type (Bus / Train / Taxi):");
+let transport = prompt(" Transport type (Bus / Train / Taxi):");
 
 
 let farePerKm;

@@ -1,0 +1,30 @@
+body { font-family: Arial, sans-serif;
+     margin: 20px;
+     }
+    .box { border: 1px solid #343434;
+        box-shadow: 2px 2px 7px 1px #515252;;
+        width: 400px;
+        margin-left: 27%;
+        padding: 10%;
+          margin-bottom: 15px; 
+          border-radius: 8px; 
+          text-align: center;
+          margin-top: 200px;
+        }
+    h2 {
+         color: #333;
+     }
+    button { 
+        padding: 6px 12px; 
+        margin-top: 8px; 
+        cursor: pointer;
+     }
+    pre { background: #f4f4f4;
+         padding: 10px;
+          border-radius: 5px; 
+        }
+        .input{
+            border-radius: 20px;
+            width: 300px;
+            height: 30px;
+        }

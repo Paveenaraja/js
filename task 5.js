@@ -14,7 +14,6 @@ function MiniQuiz(){
        }
     const Q2 = "Who invented the telephone?\n\n"+
                 "A. Thomas Edison \n" +"B. Alexander Graham Bell \n"+"C. Nikola Tesla\n"+"D. Guglielmo Marconi\n";
-    const A2 = "B";
     let ans2 = prompt(Q2) 
     switch(ans2){
         case 'B':
