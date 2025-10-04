@@ -3,24 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Registration Form</title>
   <link rel="stylesheet" href="style1.css">
-  
 </head>
 <body>
-  
-  
- <div class="book"> <h2 style="margin-left: 60%;">Registration form</h2><br><br>
- <lable><div class="lable">Name:</div><input type="name" id="name" class="box"></lable><br><br>
-  <lable ><div class="lable">Email ID:</div><input type="email" id="email" class="box"></lable><br><br>
-  <lable><div class="lable">Age:</div><input type="age" id="age" class="box"></lable><br><br>
-  <button onclick ="storeInfo()" class="lable" style="margin-left: 80%;background-color: rgba(177, 42, 42, 0.956);font-size: 20px;
-  box-shadow: -inset -1px 3px 8px 5px  rgb(205, 61, 61);border: 1px;">Submit</a></button><br><br>
-  <div id="infoMsg"></div>
-  <a href="./quiz.html" style="text-decoration: none;color: black;text-align: center;margin-left: 20%;"><h3>Quiz</h3></a>
-  
-  <script src="task9.js"></script>
+  <div class="book">
+    <h2 style="text-align: center;">Registration Form</h2><br>
 
-  
+    <label>
+      <div class="label">Name:</div>
+      <input type="text" id="name" class="box">
+    </label><br><br>
+
+    <label>
+      <div class="label">Email ID:</div>
+      <input type="email" id="email" class="box">
+    </label><br><br>
+
+    <label>
+      <div class="label">Age:</div>
+      <input type="number" id="age" class="box">
+    </label><br><br>
+
+    <button onclick="storeInfo()" 
+      style="background-color: rgb(177, 42, 42); color: white; padding: 8px 15px; border: none;">
+      Submit
+    </button>
+    <div id="infoMsg" style="margin-top: 10px;"></div>
+
+    <br><a href="quiz.html"><h3>Go to Quiz</h3></a>
+  </div>
+
+  <script src="task9.js"></script>
 </body>
 </html>
