@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div>
+        <div><h1 style="text-align: center;">Quiz</h1></div>
+    <div class="container" id="container">
+    <div id="question" class="question"></div>
+    <label class="option"><input type="radio" name="option"><span id="option1"></span></label><br>
+    <label class="option"><input type="radio" name="option"><span id="option2"></span></label><br>
+    <label class="option"><input type="radio" name="option"><span id="option3"></span></label><br>
+    <label class="option"><input type="radio" name="option"><span id="option4"></span></label><br><br><br>
+    <button type="button" id="nextQuestion" onclick="loadNextQuestion()" style="text-align: center;background-color: chocolate;margin-left: 70%;">Next Question</button>
+    </div>
+  
+  <div class="container result" id="result" style="display: none;">
+  <h2>Your Score:</h2>
+  <pre id="json.data">JSON</pre>  
+
+</div>
+
+  <script type="text/javascript"  src="var.js"></script>
+  <script src="task9.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+.book{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 1px 0px 10px 1px #000000;
+    margin-left: 25%;
+    width: 500px;
+    height: 500px;
+    padding-right: 20%;
+    margin-top: 10%;
+    
+}
+.box{
+    margin-left: 35%;
+    border-radius: 20px;
+    width: 500px;
+    height: 35px;
+}
+.lable{
+    margin-left: 35%;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: rgb(235, 231, 227);
+}
+#infoMsg{
+    margin-left: 30%;
+    color: red;
+}
+.container{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 1px 0px 10px 1px #000000;
+    margin-left: 25%;
+    width: 500px;
+    height: 500px;
+    padding-right: 20%;
+    margin-top: 10%;
+
+}
+.option{
+    border: 1px;
+    display: inline-block;
+    border-radius: 20px;
+    border-style: solid;
+    background-color: white;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 400px;
+    height: 30px;
+    padding: 2%;
+}
+.question{
+    padding: 6%;
+    color: rgb(17, 17, 18);
+    font-size: 23px;
+}
